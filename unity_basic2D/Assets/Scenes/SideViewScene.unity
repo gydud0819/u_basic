@@ -366,7 +366,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.12890625, y: 0.16015625, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -935,9 +935,9 @@ Tilemap:
   - first: {x: -8, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 1
+      m_TileIndex: 6
+      m_TileSpriteIndex: 6
+      m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
@@ -1176,7 +1176,7 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 48
     m_Data: {fileID: 11400000, guid: 299c8685708c3ea45a52fbf341918766, type: 2}
-  - m_RefCount: 12
+  - m_RefCount: 11
     m_Data: {fileID: 11400000, guid: 4c2bfa4b4f0954d4e8ff8cc1e09334c8, type: 2}
   - m_RefCount: 6
     m_Data: {fileID: 11400000, guid: 2940a7064f59d2740a0c32cbe105ad96, type: 2}
@@ -1186,10 +1186,12 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 5bff2f00e1190fd4d9862d4193679ae2, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: ea9d908538e931b4f82db7b7ab83437d, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: e06b4ac70a8bdc6459facfd8da68cd3f, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 48
     m_Data: {fileID: 694419292, guid: 90ac42a5d9e3f974ab3f563f0153e91a, type: 3}
-  - m_RefCount: 12
+  - m_RefCount: 11
     m_Data: {fileID: 826517631, guid: 90ac42a5d9e3f974ab3f563f0153e91a, type: 3}
   - m_RefCount: 6
     m_Data: {fileID: 758413626, guid: 90ac42a5d9e3f974ab3f563f0153e91a, type: 3}
@@ -1199,26 +1201,28 @@ Tilemap:
     m_Data: {fileID: 1675787325, guid: 90ac42a5d9e3f974ab3f563f0153e91a, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1389907945, guid: 90ac42a5d9e3f974ab3f563f0153e91a, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -322684151, guid: e746bda9ba375574db5f2ef95541ea92, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 0
+  - m_RefCount: 1
     m_Data:
-      e00: -447882
-      e01: 1e-44
-      e02: -0.021241516
+      e00: 1
+      e01: 0
+      e02: 0
       e03: 0
-      e10: 1.04e-43
-      e11: 0
-      e12: 4.5905e-41
+      e10: 0
+      e11: 1
+      e12: 0
       e13: 0
-      e20: 3.855e-41
+      e20: 0
       e21: 0
-      e22: -447881.5
+      e22: 1
       e23: 0
       e30: 0
-      e31: 7.34684e-40
-      e32: 1.04e-43
+      e31: 0
+      e32: 0
       e33: 1
-  - m_RefCount: 79
+  - m_RefCount: 78
     m_Data:
       e00: 1
       e01: 0
