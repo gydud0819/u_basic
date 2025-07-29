@@ -13,9 +13,12 @@ public class PlayerHandler : MonoBehaviour
 
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private float groundDistance = 1.2f;
+
+    private PlayerAnimatorCtrl playerAnimatorCtrl;
     private void Awake()
     {
         rigidbody2D.GetComponent<Rigidbody2D>();
+        playerAnimatorCtrl.GetComponent<PlayerAnimatorCtrl>();
     }
 
     private void Start()
@@ -77,6 +80,17 @@ public class PlayerHandler : MonoBehaviour
 
         // 위에있는 horizontal을 이용해서 vector2의 x값을 변경하는 코드 만들기
         // 멤버 변수로 이동 속도 변수를 추가해서 vector의 현재 크기에 속도를 곱한 값으로 이동하도록 코드 만들기
+        if (horizontal==0)
+        {
+            playerAnimatorCtrl.PlayBoolAnimation("IsMove", true);
+            playerAnimatorCtrl.PlayBoolAnimation("IsTurn", false); 
+        }
+        else
+        {
+            playerAnimatorCtrl.PlayBoolAnimation("IsMove", false);
+            playerAnimatorCtrl.PlayBoolAnimation("IsTurn", true);
+        }
+
         rigidbody2D.velocity = new Vector2((horizontal * moveSpeed), rigidbody2D.velocity.y);
     }
 }
