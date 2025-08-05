@@ -21,9 +21,10 @@ public class IntroButtonContainer : MonoBehaviour
         tut.SetActive(true);     // 외부에서 가져와야하구나 
     }
 
-    public void ButtonOption()
+    public void ButtonOption(GameObject opt)
     {
         Debug.Log("환경설정으로 들어가기");
+        opt.SetActive(true);
     }
 
     public void ButtonExit()
