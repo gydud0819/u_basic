@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/UI_Sample.unity
     guid: e5b860beebe324e4f82ef6328f109f76
   - enabled: 1
-    path: Assets/Scenes/TopView.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/SideViewScene.unity
+    guid: 9526906c864c2f5419521c96c0753e59
   m_configObjects: {}

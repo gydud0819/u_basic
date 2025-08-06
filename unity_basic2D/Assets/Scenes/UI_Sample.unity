@@ -4021,9 +4021,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1c4ab1631e63c94aad6e05ecdd86ce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  englishTitle: <color=red><size=200%>My</size></color> Platform
+  englishTitle: <color=white><size=100%>Surviver</size></color> Game
   koreanTitle: "<size=150%>\uB0B4</size> \uD50C\uB7AB\uD3FC"
-  IsKorean: 1
+  IsKorean: 0
 --- !u!114 &1197912153
 MonoBehaviour:
   m_ObjectHideFlags: 0
