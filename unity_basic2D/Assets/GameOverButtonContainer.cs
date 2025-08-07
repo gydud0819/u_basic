@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -20,5 +21,13 @@ public class GameOverButtonContainer : MonoBehaviour
     public void ButtonExit()
     {
         Debug.Log("종료하기");
+    }
+//#if UNITY_EDITOR
+//    EditorApplication.isPlaying;
+//#endif
+
+    public void ButtonOnNext(int sceneIndex)
+    {
+
     }
 }
